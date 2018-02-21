@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:fontFamily="@font/habibi"
+                android:text="Series"
+                android:textColor="@color/colorBlac"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvSeries2"
+                app:layout_constraintStart_toEndOf="@+id/tvRepeticiones2"
+                app:layout_constraintTop_toBottomOf="@+id/tvNombre2"
+                app:layout_constraintVertical_bias="0.76" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="92dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/habibi"
+                android:text="Repeticiones"
+                android:textColor="@android:color/background_dark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvRepeticiones2"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/tvNombre2"
+                app:layout_constraintVertical_bias="0.20999998" />
+
+            <TextView
+                android:id="@+id/tvSeries2"
+                android:layout_width="26dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/habibi"
+                android:text="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/tvDiaColapse"
+                app:layout_constraintTop_toBottomOf="@+id/tvNombre2"
+                app:layout_constraintVertical_bias="0.58000004" />
+
+            <TextView
+                android:id="@+id/tvNombre2"
+                android:layout_width="225dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/habibi"
+                android:text="Nombre ej"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvRepeticiones2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.39999998" />
+
+            <TextView
+                android:id="@+id/tvRepeticiones2"
+                android:layout_width="31dp"
+                android:layout_height="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/habibi"
+                android:text="10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/tvNombre2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="86dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="17dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/icono_lista" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

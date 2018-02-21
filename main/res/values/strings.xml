@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rutinas</string>
+    <string-array name="disciplinas">
+        <item>Boxeo</item>
+        <item>Muay-thai</item>
+        <item>Kick-Boxing</item>
+        <item>Gimnasio</item>
+        <item>Calistenia</item>
+        <item>Crossfit</item>
+        <item>Running</item>
+    </string-array>
+</resources>
